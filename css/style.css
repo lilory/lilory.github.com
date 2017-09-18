@@ -107,7 +107,12 @@ a, a:hover, a:active, a:visited{
 	width: 100%;
 	height: auto;
 }
-
+.works-info{
+	margin:30px 0;
+}
+.url{
+	color: darkgrey;
+}
 
 @media (max-width: 768px) {
 	.big-row{
@@ -127,6 +132,9 @@ a, a:hover, a:active, a:visited{
 		width: auto;
 		transition: .5s ease;
 	}
+	.works-duration, .works-role{
+	margin-top: 30px;
+	}	
 	#footer .email{
 	text-align: left;
 	margin-top:20px;
