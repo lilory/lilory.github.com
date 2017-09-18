@@ -1,0 +1,150 @@
+/*Jinyoung Kwon 2017*/
+@import url('http://fonts.googleapis.com/earlyaccess/jejugothic.css');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Muli');
+
+/*init*/
+html, body{max-width: 720px; margin:0 auto; font-weight:400; font-size: 15px; color:#006E51;}
+
+a, a:hover, a:active, a:visited{
+	color: #006E51;
+	text-decoration: none;
+}
+
+/*header*/
+#header {
+	/*width:720px;*/
+	padding:50px 0px; 
+	border-bottom:solid 1px #006E51;
+	font-size:20px;
+}
+#header .kr{
+	font-family:'Jeju Gothic'; 
+}
+#header .en{
+	font-family:'Muli'; 
+	font-weight: 700;
+}
+/*main-content*/
+#main-content{
+	/*width:720px;*/
+	margin: 30px auto;
+	padding: 0;
+}
+/*footer*/
+#footer{
+	/*background-color: #fdf7f6;*/
+	/*width:720px;*/
+	color: #EEB0AE;
+	font-size:12px; 
+	padding:20px 0 80px 0px; 
+	border-top: solid 1px #006E51;
+}
+#footer a{
+	color: #EEB0AE;
+    text-decoration: underline;
+}
+#footer .email{
+	text-align: right;
+}
+#footer img{
+	width: 10px;
+}
+
+/*index*/
+.big-row{
+	height:300px;
+}
+.small-row{
+	height:150px;
+}
+.content-box{
+	padding: 4px;
+	overflow: hidden;
+}
+.bg-box{
+	background-color: #E5F0ED;
+}
+.content-box img{
+	max-width:100%;
+	height: auto;
+	transition: .5s ease;
+}
+.content-box-overlay{
+	text-align: center;
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+.content-box-overlay .title{
+	font-size: 20px;
+	font-weight: 700;
+}
+.content-box:hover, .content-box:active{
+	padding: 0;
+	border: 8px solid #006E51;
+	z-index: 1;
+}
+.content-box:hover img, .content-box:active img{
+	opacity: 0.3;
+}
+.content-box:hover .content-box-overlay, .content-box:active .content-box-overlay{
+	opacity: 1;
+}
+
+/*works*/
+.works .title{
+	font-size:20px;
+	font-weight:700;
+}
+.works .sub-title{
+	font-weight:700;
+}
+.works img{
+	width: 100%;
+	height: auto;
+}
+.works-info{
+	margin:30px 0;
+}
+.url{
+	color: darkgrey;
+}
+
+@media (max-width: 768px) {
+	.big-row{
+		height: initial;
+	}
+	.small-row{
+		height: initial;
+	}
+	.content-box{
+		height:150px;
+		text-align: center;
+	}
+	.content-box img{
+		max-width:initial;
+		height:initial;
+		max-height:150px;
+		width: auto;
+		transition: .5s ease;
+	}
+	.works-duration, .works-role{
+	margin-top: 30px;
+	}	
+	#footer .email{
+	text-align: left;
+	margin-top:20px;
+	}
+}
+
+@media (max-width: 576px){
+	html,body{
+		padding: 10px;
+		max-width: initial !important;
+	} 
+}
+
