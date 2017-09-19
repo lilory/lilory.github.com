@@ -89,27 +89,6 @@ a, a:hover, a:active, a:visited{
 	font-weight: 700;
 }
 
-/*.content-box{
-	padding: 4px;
-	overflow: hidden;
-}
-
-.content-box img{
-	max-width:100%;
-	height: auto;
-	transition: .5s ease;
-}
-.content-box:hover, .content-box:active{
-	padding: 0;
-	border: 8px solid #006E51;
-	z-index: 1;
-}
-.content-box:hover img, .content-box:active img{
-	opacity: 0.2;
-}
-.content-box:hover .content-box-overlay, .content-box:active .content-box-overlay{
-	opacity: 1;
-}*/
 
 /*works*/
 .works .title{
@@ -125,7 +104,7 @@ a, a:hover, a:active, a:visited{
 	height: auto;
 }
 .url{
-	color: darkgrey;
+	color: darkgrey !important;
 }
 
 @media (max-width: 768px) {
