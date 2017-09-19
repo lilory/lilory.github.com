@@ -9,6 +9,7 @@ html, body{max-width: 576px; margin:0 auto; font-size: 15px;font-family:'Jeju My
 a, a:hover, a:active, a:visited{
 	color: black;
 	text-decoration: none;
+	cursor:pointer;
 }
 
 
