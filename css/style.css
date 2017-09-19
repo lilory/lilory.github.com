@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Muli');
 
 /*init*/
-html, body{max-width: 720px; margin:0 auto; font-weight:400; font-size: 15px; color:#006E51;}
+html, body{font-family: "Helvetica Neue",Helvetica,Arial; max-width: 720px; margin:0 auto; font-weight:400; font-size: 15px; color:#006E51;}
 
 a, a:hover, a:active, a:visited{
 	color: #006E51;
@@ -48,27 +48,27 @@ a, a:hover, a:active, a:visited{
 	height:300px;
 }
 .small-row{
-	height:150px;
+	height:147.5px;
 }
-.btn{
+.content-box{
 	overflow: hidden;
 	border-radius: initial;
 	padding: 4px;
 }
-.btn img{
+.content-box img{
 	max-width:100%;
 	height: auto;
 	transition: .5s ease;
 }
-.btn:hover, .btn:active{
+.content-box:hover, .content-box:active{
 	padding: 0;
 	border: 8px solid #006E51;
 	z-index: 1;
 }
-.btn:hover img, .btn:active img{
+.content-box:hover img, .content-box:active img{
 	opacity: 0.2;
 }
-.btn:hover .bg-box-overlay, .btn:active .bg-box-overlay{
+.content-box:hover .bg-box-overlay, .content-box:active .bg-box-overlay{
 	opacity: 1;
 }
 .bg-box{
@@ -118,11 +118,11 @@ a, a:hover, a:active, a:visited{
 	.small-row{
 		height: initial;
 	}
-	.btn{
+	.content-box{
 		height:150px;
 		text-align: center;
 	}
-	.btn img{
+	.content-box img{
 		max-width:initial;
 		height:initial;
 		max-height:150px;
