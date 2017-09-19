@@ -103,6 +103,10 @@ a, a:hover, a:active, a:visited{
 	width: 100%;
 	height: auto;
 }
+/*.cycle-img img{
+	max-width:200px;
+	height: auto;
+}*/
 .url{
 	color: darkgrey !important;
 }
