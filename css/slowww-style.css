@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Muli');
 
 /*init*/
-html, body{max-width: 576px; margin:0 auto; font-size: 15px;font-family:'Jeju Myeongjo'; }
+html, body{max-width: 576px; margin:0 auto; font-size: 15px;font-family:'Jeju Myeongjo';}
 
 
 a, a:hover, a:active, a:visited{
@@ -81,7 +81,11 @@ a, a:hover, a:active, a:visited{
 	max-width:100%;
 	height: auto;
 }
-
+.btn-secondary {
+    color: black;
+    background-color: initial;
+    border-color: black;
+}
 
 @media (max-width: 576px){
 	html,body{
