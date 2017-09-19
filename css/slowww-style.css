@@ -41,11 +41,11 @@ a, a:hover, a:active, a:visited{
 .row{
 	margin: 0;
 	height:300px;
-	padding: 10px 0;
+	overflow: hidden;
 }
 .content-box{
-	overflow: hidden;
-	padding: 0;
+	padding: 10px 0;
+	height: 300px;
 }
 .content-box img{
 	max-width:100%;
@@ -81,16 +81,58 @@ a, a:hover, a:active, a:visited{
 	max-width:100%;
 	height: auto;
 }
-.btn-secondary {
+#works .title{
+	background-color:rgba(160, 113, 79, 0.1);
+	text-align:center; font-size:20px; 
+	padding:70px 0px;
+	margin-top:10px
+}
+#works .sub-title{
+	font-size: 12px;
+	color:grey; 
+	margin-top:10px;
+}
+.btn{
     color: black;
     background-color: initial;
     border-color: black;
 }
+.btn:hover{
+	background-color: rgba(160, 113, 79, 0.1);
+	color:black;
+}
+.modal-footer{
+	display: initial;
+	justify-content: initial;
+	text-align: center;
+	margin: 0px 15px;
+}
 
+/*about*/
+.about{
+	margin:50px auto; 
+	text-align:center;
+}
+.url{
+	border-bottom:1px solid black;
+}
 @media (max-width: 576px){
 	html,body{
 		padding: 10px;
 		max-width: initial !important;
 	} 
+
+	.row{
+		height:250px;
+	}
+	.content-box{
+		height: 250px;
+	}
+	#works img{
+		max-width: initial;
+		height: initial;
+		max-height:100%;
+		width: auto;
+	}
 }
 
