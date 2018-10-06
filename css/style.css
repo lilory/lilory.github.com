@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Muli');
 
 /*init*/
-html, body{font-family: "Helvetica Neue",Helvetica,Arial; max-width: 720px; margin:0 auto; font-weight:400; font-size: 15px; color:#006E51;}
+html, body{font-family: "Helvetica Neue",Helvetica,Arial; max-width: 720px; margin:0 auto; font-weight:400; font-size: 15px; color:#111f28;}
 
 a, a:hover, a:active, a:visited{
-	color: #006E51;
+	color: #111f28;
 	text-decoration: none;
 }
 
@@ -17,7 +17,7 @@ p{
 /*header*/
 #header {
 	padding:50px 0px; 
-	border-bottom:solid 1px #006E51;
+	border-bottom:solid 1px #111f28;
 	font-size:20px;
 }
 #header .kr{
@@ -34,13 +34,13 @@ p{
 }
 /*footer*/
 #footer{
-	color: #EEB0AE;
+	color: #afb9c5;
 	font-size:12px; 
 	padding:20px 0 80px 0px; 
-	border-top: solid 1px #006E51;
+	border-top: solid 1px #111f28;
 }
 #footer a{
-	color: #EEB0AE;
+	color: #afb9c5;
     text-decoration: underline;
 }
 #footer img{
@@ -66,7 +66,7 @@ p{
 }
 .content-box:hover, .content-box:active{
 	padding: 0;
-	border: 8px solid #006E51;
+	border: 8px solid #484e52;
 	z-index: 1;
 }
 .content-box:hover img, .content-box:active img{
@@ -76,7 +76,7 @@ p{
 	opacity: 1;
 }
 .bg-box{
-	background-color: rgba(0,110,81,0.08);
+	background-color: rgba(89,80,70,0.08);
 }
 .bg-box-overlay{
 	text-align: center;
