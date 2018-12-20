@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Muli');
 
 /*init*/
-html, body{font-family: "Helvetica Neue",Helvetica,Arial; max-width: 720px; margin:0 auto; font-weight:400; font-size: 15px; color:#111f28;}
+html, body{font-family: "Helvetica Neue",Helvetica,Arial; max-width:720px; margin:0 auto; font-weight:400; font-size: 15px; color:#111f28;}
 
 a, a:hover, a:active, a:visited{
 	color: #111f28;
@@ -52,7 +52,7 @@ p{
 	height:300px;
 }
 .small-row{
-	height:147.5px;
+	height:150px;
 }
 .content-box{
 	overflow: hidden;
@@ -89,7 +89,7 @@ p{
 	-ms-transform: translate(-50%, -50%);
 }
 .bg-box-overlay .title{
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 700;
 }
 
