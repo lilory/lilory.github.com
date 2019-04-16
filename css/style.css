@@ -128,7 +128,7 @@ p{
 		text-align: center;
 	}
 	.content-box img{
-		max-width:initial;
+		max-width:100%;
 		height:initial;
 		max-height:150px;
 		width: auto;
