@@ -49,7 +49,7 @@ p{
 
 /*index*/
 .big-row{
-	height:300px;
+	height:252px;
 }
 .small-row{
 	height:150px;
@@ -74,6 +74,7 @@ p{
 }
 .content-box:hover .bg-box-overlay, .content-box:active .bg-box-overlay{
 	opacity: 1;
+	display:block;
 }
 .bg-box{
 	background-color: rgba(89,80,70,0.08);
@@ -81,7 +82,7 @@ p{
 .bg-box-overlay{
 	text-align: center;
 	transition: .5s ease;
-	opacity: 0;
+	display:none;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -131,6 +132,7 @@ p{
 		height:initial;
 		max-height:150px;
 		width: auto;
+		text-align:center;
 		transition: .5s ease;
 	}
 	.works-info{
