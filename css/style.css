@@ -1,10 +1,8 @@
 /*Jinyoung Kwon 2017*/
-@import url('http://fonts.googleapis.com/earlyaccess/jejugothic.css');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nunito|Muli');
 
 /*init*/
-html, body{position:relative; font-family:"jejugothic"; margin:0px auto; font-weight:400; font-size: 15px; color:#3A3A3A; max-width: 720px;}
+html, body{position:relative; font-family:"Noto Sans KR"; margin:0px auto; font-weight:400; font-size: 14px; color:#3A3A3A; max-width: 720px;}
 
 a, a:hover, a:active, a:visited{
 	color: #3A3A3A;
@@ -16,17 +14,17 @@ p{
 }
 
 /*header*/
-#intro {
+#intro .name{
 	font-size:20px;
-}
-
-#intro .kr{
-	font-family:'jejugothic';
 	font-weight: 700; 
 }
-#intro .en{
-	font-family:'Muli'; 
-	font-weight: 700;
+#intro .text{
+	font-size:18px; 
+	margin:15px 0; 
+	font-family: "Noto Serif KR"
+}
+#intro .underline{
+	text-decoration:underline;
 }
 
 /*footer*/
@@ -39,10 +37,8 @@ p{
 
 /*thumnail*/
 #projects .card {
-	border-radius:5 !important; 
 	border:1px solid #f7f7f7 !important;
 }
-
 #projects .card img{
 	background-color:#f7f7f7
 }
@@ -87,9 +83,6 @@ p{
 	.works-info{
 	margin-top: 30px;
 	}	
-	#footer .section{
-	margin-top:20px;
-	}
 }
 
 @media (max-width: 576px){
