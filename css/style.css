@@ -1,12 +1,13 @@
 /*Jinyoung Kwon 2017*/
 @import url('http://fonts.googleapis.com/earlyaccess/jejugothic.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito|Muli');
 
 /*init*/
-html, body{font-family: "Helvetica Neue",Helvetica,Arial; max-width:720px; margin:0 auto; font-weight:400; font-size: 15px; color:#111f28;}
+html, body{position:relative; font-family:"jejugothic"; margin:0px auto; font-weight:400; font-size: 15px; color:#3A3A3A; max-width: 720px;}
 
 a, a:hover, a:active, a:visited{
-	color: #111f28;
+	color: #3A3A3A;
 	text-decoration: none;
 }
 
@@ -15,87 +16,36 @@ p{
 }
 
 /*header*/
-#header {
-	padding:50px 0px; 
-	border-bottom:solid 1px #111f28;
+#intro {
 	font-size:20px;
 }
-#header .kr{
-	font-family:'Jeju Gothic'; 
+
+#intro .kr{
+	font-family:'jejugothic';
+	font-weight: 700; 
 }
-#header .en{
+#intro .en{
 	font-family:'Muli'; 
 	font-weight: 700;
 }
-/*main-content*/
-#main-content{
-	margin: 20px auto;
-	padding: 10px;
-}
+
 /*footer*/
 #footer{
 	color: #afb9c5;
 	font-size:12px; 
-	padding:20px 0 80px 0px; 
-	border-top: solid 1px #111f28;
-}
-#footer a{
-	color: #afb9c5;
-    text-decoration: underline;
-}
-#footer img{
-	width: 10px;
+	padding:20px 0px; 
 }
 
-/*index*/
-.big-row{
-	height:252px;
-}
-.small-row{
-	height:150px;
-}
-.content-box{
-	overflow: hidden;
-	border-radius: initial;
-	padding: 4px;
-}
-.content-box img{
-	max-width:100%;
-	height: auto;
-	transition: .5s ease;
-}
-.content-box:hover, .content-box:active{
-	padding: 0;
-	border: 8px solid #484e52;
-	z-index: 1;
-}
-.content-box:hover img, .content-box:active img{
-	opacity: 0.2;
-}
-.content-box:hover .bg-box-overlay, .content-box:active .bg-box-overlay{
-	opacity: 1;
-	display:block;
-}
-.bg-box{
-	background-color: rgba(89,80,70,0.08);
-	width:100%;
-	height:100%;
-}
-.bg-box-overlay{
-	text-align: center;
-	transition: .5s ease;
-	display:none;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-}
-.bg-box-overlay .title{
-	font-size: 14px;
-	font-weight: 700;
+
+/*thumnail*/
+#projects .card {
+	border-radius:5 !important; 
+	border:1px solid #f7f7f7 !important;
 }
 
+#projects .card img{
+	background-color:#f7f7f7
+}
 
 /*works*/
 .works .title{
@@ -110,10 +60,7 @@ p{
 	width: 100%;
 	height: auto;
 }
-/*.cycle-img img{
-	max-width:200px;
-	height: auto;
-}*/
+
 .url{
 	color: darkgrey !important;
 }
