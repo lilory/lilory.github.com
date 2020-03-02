@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR&display=swap');
 
 /*init*/
-html, body{position:relative; font-family:"Noto Sans KR"; margin:0px auto; font-weight:400; font-size: 14px; color:#3A3A3A; max-width: 720px;}
+html, body{position:relative; font-family:"Noto Sans KR"; margin:0px auto; font-weight:400; font-size: 14px; color:#2E2624; max-width:768px;}
 
 a, a:hover, a:active, a:visited{
-	color: #3A3A3A;
+	color: #2E2624;
 	text-decoration: none;
 }
 
@@ -14,75 +14,94 @@ p{
 }
 
 /*header*/
-#intro .name{
+#header{
+	margin:30px 0;
+}
+#header .name{
 	font-size:20px;
 	font-weight: 700; 
 }
-#intro .text{
+#header .text{
 	font-size:18px; 
 	margin:15px 0; 
 	font-family: "Noto Serif KR"
 }
-#intro .underline{
+#header .underline{
 	text-decoration:underline;
+}
+
+
+/*works*/
+.modal-backdrop {
+   background: #f7f7f7;
+   opacity: 1 !important;
+}
+#works .modal-content{
+	border-radius: 0px;
+}
+#works .modal-header{
+	border: none;
+}
+#works .modal-body{
+	margin-top:30px;
+}
+#works .image-box{
+	padding:20px;
+	background: #f7f7f7;
+}
+#works img{
+	max-width: 100%;
+	margin:15px auto;
+}
+#works h3, h5{
+	font-weight: 700;
+}
+#works h4{
+	margin: 30px 0;
+}
+#works h6{
+	font-size:10px;
+}
+#works hr{
+	margin:30px 0;
+}
+#works a{
+	text-decoration: underline;
+}
+
+/*btn*/
+.btn-outline-dark {
+	border: 1px solid #2E2624;
+	color: #2E2624;
+	border-radius: 0;
+}
+.btn-outline-dark:hover, .btn-outline-dark:active, .btn-outline-dark:visited{
+	background-color: #2E2624;
+	border: 1px solid #2E2624;
+}
+
+
+/*main*/
+#main .card{
+	border:1px solid #dbdcdc !important;
+}
+#main .card img{
+	background-color:#f7f7f7
 }
 
 /*footer*/
 #footer{
 	color: #afb9c5;
 	font-size:12px; 
-	padding:20px 0px; 
+	padding-bottom:20px; 
 }
 
-
-/*thumnail*/
-#projects .card {
-	border:1px solid #eeeeee !important;
-}
-#projects .card img{
-	background-color:#f7f7f7
-}
-
-/*works*/
-.works .title{
-	font-size:20px;
-	font-weight:700;
-}
-.works .sub-title{
-	font-weight:700;
-}
-.works img{
-	margin-top: 30px;
-	width: 100%;
-	height: auto;
-}
-
-.url{
-	color: darkgrey !important;
-}
 
 @media (max-width: 768px) {
-	.big-row{
-		height: initial;
-	}
-	.small-row{
-		height: initial;
-	}
-	.content-box{
-		height:150px;
-		text-align: center;
-	}
-	.content-box img{
-		max-width:100%;
-		height:initial;
-		max-height:150px;
-		width: auto;
-		text-align:center;
-		transition: .5s ease;
-	}
-	.works-info{
-	margin-top: 30px;
-	}	
+	html,body{
+		padding: 20px;
+		max-width: initial !important;
+	} 
 }
 
 @media (max-width: 576px){
