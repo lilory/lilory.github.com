@@ -10,7 +10,7 @@ a, a:hover, a:active, a:visited{
 }
 
 p{
-	line-height: 1.5em;
+	line-height: 1.8em;
 }
 
 /*header*/
@@ -39,6 +39,7 @@ p{
 }
 #works .modal-content{
 	border-radius: 0px;
+	padding: 5px 10px;
 }
 #works .modal-header{
 	border: none;
