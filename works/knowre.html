@@ -9,6 +9,7 @@
 			<div class="row">
 				<div class="col-md-8">
 					<p>에듀테크 스타트업 <a class="url" href="https://www.knowre.com/" target="_blank" style="text-decoration: underline;">Knowre</a>에서 진행한 태블릿용 연산학습 어플리케이션 '연산노리' 프로젝트에 초기부터 참여하여 런칭했습니다.</p> 
+
 				</div>
 				<div class="col-md-4">
 					<h6>Role</h6>
@@ -19,45 +20,85 @@
 
 			<hr>
 
-			<h4>배경</h4>
-			<p>·기존의 연산학습지의 학생 난이도를 고려하지 않은 지루한 반복 학습<br>
-			·디지털 매체의 장점을 활용한 종이학습지의 단점을 보완한 새로운 연산학습 어플리케이션 설계<br>(학생의 숙련도에 따른 맞춤형 학습, 일대다 학습이 가능한 즉각적인 피드백,게이미피케이션) </p> 
+			<h3>Goal #1. <span style="font-weight:400;">종이 학습지와 유사한 직관적인 연산UX 만들기</span></h3>
+
+			 <p>기존 연산학습지는 학생의 난이도를 고려하지 않은 지루한 반복 학습을 유도합니다. 개인화 태블릿연산학습 어플리케이션을 만들기 위해 종이 학습지와 유사하여 학습 몰입을 헤치지 않는 직관적인 연산UX 설계를 목표로 했습니다. 자연스러운 경험을 위해 필기인식 기술인 <a class="url" href="https://www.myscript.com/ko/" target="_blank" style="text-decoration: underline;">MyScript</a>를 사용할 계획을 가지고 있었습니다.<br><br>
+			</p>
+
+			<img src="/img/works_knowre_7.png">
+
+			<h4>Competitive Analysis</h4>
+			 타겟 사용자의 연령은 연산학습을 시작하는 6~13세로 해당 연령대를 대상으로 하는 모바일 학습 어플리케이션을 조사했습니다.<br><br>
+			 ·다수의 학습 어플리케이션은 객관식 문제풀이 방식이었음<br>
+			 ·토도수학의 경우 필기를 요구하는 세션이 있으나 정답을 인식하는 방식은 아니었음<br>
+			 ·자사의 중,고등학생 타겟의 제품의 경우 연습장과 학습입력창을 별도로 존재하여 종이학습지와의 경험과 큰 차이가 있었음
+			 <img src="/img/works_knowre_8.png">
+
+			<h4>User Journey Map</h4>
+			<img src="/img/works_knowre_5.png">
+
+
+			<h4>Usability Test</h4>
+			Working Prototype을 만들어 타겟 연령층의 학생들을 대상으로 Usability Test를 시행하는 여러 번의 Design iteration을 거쳤습니다.
+			<img src="/img/works_knowre_6.png">
+
+			<p>·모바일 환경에 익숙하지 않은 저연령도 학생들이 사용 패턴을 스스로 어렵지 않게 학습하였음<br>
+				·연필/지우개 모드 전환에 큰 어려움을 느끼지 않았음
+				·종이 경험과의 유사성을 위해 고안한 지우개 애니메이션이 오히려 사용성을 헤쳤음<br>
+				·연필/지우개 버튼을 한꺼번에 노출하여 현재 모드를 헷갈려하는 경우가 있었음<br>
+				·MyScript의 숫자 변환 속도가 빨라 학생들이 당황하여 자연스러운 속도 조정이 필요했음<br>
+				·답 전송 버튼을 화살표로 디자인 한 경우 다음 문제로 넘어가는 과정이 자연스러웠음<br>
+			</p>
+
+			<h4>Design</h4>
+			<video controls autoplay muted width="50%" style="display:block; margin:0 auto;"><source src="/img/knowre.mp4" type="video/mp4" /></video>
+
+			<br><br>
+			<hr>
+			<h3>Goal #2. <span style="font-weight:400;">지루하지 않은 개인화 학습 Gamification 만들기</span></h3>
+
+			<p>개인화 학습을 하더라도, 연산수학 특성상 일정기간 반복학습이 중요했습니다. 타겟의 연령대가 유아부터 초등학생인 점을 감안하여 개인화 학습 시스템이 자연스럽게 녹을 수 있는 Gamification 고안이 필요했습니다.</p>
+
+			<h4>Benchmark</h4>
+
+			<p>기존 자사의 중,고등학생 타겟의 실사에 가까운 캐릭터를 사용하지 않고 타겟의 연령대를 고려한 캐릭터를 구상하였습니다. 자신만의 아바타를 만드는 기능을 더해 engagement를 높이고자 Class dojo의 아바타 커스텀 기능을 벤치마크 하고 쉽게 친근감이 들 수 있는 단순성이 돋보이는 캐릭터를 리서치 했습니다.</p>
+			<img src="/img/works_knowre_10.png?2020">
+			<br><br>
+			<p>반복적이면서도 커리큘럼에 따라 챌린지한 문제가 달라지는 점이 모바일 퍼즐게임과 비슷한 면을 가지고 있어 맵 기반의 목표지향 게임인 캔디크러쉬 사가, 카카오프렌즈 게임 등의 구조를 벤치마킹하였습니다.</p>
+			<img src="/img/works_knowre_9.png?2020">
+
+
+			<h4>Usability Test</h4>
+			<p>6개월 간의 파일럿 테스트를 통해 게이미피케이션 및 데이터 분석을 통한 개인화 학습 시스템 검증을 진행하며 Design Iteration을 반복했습니다.</p>
+			<img src="/img/works_knowre_2.png?2020">
 
 			<br>
 
-			<h4>과정</h4>
-			<img src="/img/works_knowre_1.png?2020">
-			<p>·종이연산학습지 사용자 및 제품 분석<br>
-				·Working prototype UX설계 및 개발<br>
-				·Working prototype을 활용한 파일럿 테스트 (50명의 학생을 대상으로 6개월간 진행)<br>
-				·파일럿 테스트를 통해 수집한 데이터 분석을 통한 UX 개선<br>
-				·제품 UX설계 및 개발
-			</p>
-			<img src="/img/works_knowre_2.png?2020">
+			
+			<h4>Design</h4>
 
-			<h4>결과</h4>
-			<div class="row">
-				<div class="col-md-6">
-					<p><b>직관적인 연산UI</b><br>· 종이학습지와 유사한 필기경험을 주는 연필/지우개 UX설계<br>· MyScript를 활용한 자동인식 UX설계</p>
-				</div>
-				<div class="col-md-6">
-					<video controls autoplay muted width="50%" style="display:block; margin:0 auto;"><source src="/img/knowre.mp4" type="video/mp4" /></video>
-				</div>
-			</div>
-			<br><br>
-			<div class="row">
-				<div class="col-md-6">
-					<p><b>게이미피케이션/개인화 학습</b>
-						<br>· 자신만의 아바타를 통한 제품에 대한 engagement 향상
+			<p>
+				<!-- <b>게이미피케이션/개인화 학습</b> -->
+						· 자신만의 아바타를 통한 제품에 대한 engagement 향상
+						<br>· 게임적인 요소가 가미된 맵을 활용한 성취도 시각화
+						<br>· 학습자의 눈높이에 맞춘 친근한 메타포를 활용한 게이미피케이션을 이용한 학습량 개인화
+			</p>
+			<img src="/img/works_knowre_3.png?2020">
+			
+			<!-- <div class="row"> -->
+				<!-- <div class="col-md-6"> -->
+					<!-- <p><b>게이미피케이션/개인화 학습</b> -->
+						<!-- <br>· 자신만의 아바타를 통한 제품에 대한 engagement 향상
 						<br>· 게임적인 요소가 가미된 맵을 활용한 성취도 시각화
 						<br>· 학습자의 눈높이에 맞춘 친근한 메타포를 활용한 게이미피케이션을 이용한 학습량 개인화
 					</p>
-				</div>
-				<div class="col-md-6">
-					<img src="/img/works_knowre_3.png?2020">
-				</div>
-			</div>
+				</div> -->
+				<!-- <div class="col-md-6"> -->
+					
+				<!-- </div> -->
+			<!-- </div> -->
 			<br><br>
+			<!-- 
 			<div class="row">
 				<div class="col-md-6">
 					<p><b>학습 리포트 & 학생 관리 대시보드</b><br>
@@ -66,7 +107,7 @@
 					</p>
 				</div>
 				<div class="col-md-6"><img src="/img/works_knowre_4.png?2020"></div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>
